@@ -1,6 +1,6 @@
 #Bankers Algorithm To detect Deadlocks
 import java.util.*;
-class Bankers
+class Bankers_Algorithm
 {
 	private int need[][], allocate[][], max[][], avail[][], total[][], np, nr;
 	public void input()
