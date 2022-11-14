@@ -2,7 +2,7 @@ package DCCN;
 
 import java.util.*;
 
-public class EXP8 {
+public class LeakyBucket {
 	public static void main(String args[])
 	{
 		Scanner sc = new Scanner(System.in);
