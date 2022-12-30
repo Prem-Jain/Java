@@ -31,9 +31,10 @@ class Circlee extends Shape3
 
 public class Abstract {
 	public static void main(String[] args) {
-		Cubee c = new Cubee();
-		System.out.println("Volumn of Cube = " + c.area(5));
-		Circlee cl = new Circlee();
-		System.out.println("Area of Circle = " + cl.area(10));
+		Shape3 s;
+		s = new Cubee();
+		System.out.println("Volumn of Cube = " + s.area(5));
+		s = new Circlee();
+		System.out.println("Area of Circle = " + s.area(10));
 	}
 }
