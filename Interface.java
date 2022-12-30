@@ -31,9 +31,10 @@ class Circleee implements Shape4
 
 public class Interface {
 	public static void main(String[] args) {
-		Cubeee c = new Cubeee();
-		System.out.println("Volumn of Cube = " + c.area(10));
-		Circleee cl = new Circleee();
-		System.out.println("Area of Circle = " + cl.area(1));
+		Shape4 s;
+		s = new Cubeee();
+		System.out.println("Volumn of Cube = " + s.area(10));
+		s = new Circleee();
+		System.out.println("Area of Circle = " + s.area(1));
 	}
 }
