@@ -1,4 +1,4 @@
-package mp4com.mile.exceptions;
+package MiniProjectcom.mile.exceptions;
 
 public class NullNameException extends Exception{
 	
