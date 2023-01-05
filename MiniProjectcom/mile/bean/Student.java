@@ -1,4 +1,4 @@
-package mp4com.mile.bean;
+package MiniProjectcom.mile.bean;
 
 public class Student {
 	private String name, grade;
