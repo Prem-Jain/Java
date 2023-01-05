@@ -1,4 +1,4 @@
-package mp4com.mile.services;
+package MiniProjectcom.mile.services;
 
 import mp4com.mile.bean.*;
 import mp4com.mile.exceptions.*;
